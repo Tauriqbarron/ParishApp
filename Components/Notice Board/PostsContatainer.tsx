@@ -15,10 +15,12 @@ const styles = StyleSheet.create({
     borderWidth: 2px,
     borderColor: '#000',
     padding: 4px,
-    width: 90%,
     margin: 5px,
     borderRadius: 3px,
-    height: 100px,
-    
+    position: absolute;
+    width: 340px;
+    height: 194px;
+    left: calc(50% - 340px/2);
+    top: 72px;
   }
 })
