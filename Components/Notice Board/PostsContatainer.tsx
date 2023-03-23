@@ -4,7 +4,7 @@ import {View, StyleSheet, Text} from 'react-native';
 const PostsContainer = () => {
   return( 
   <View style={styles.msgBox}>
-    <Text>"Lets see what this text looks like</Text>
+    <PostContentContainer></PostContentContainer>
   </View>
     )
 }
