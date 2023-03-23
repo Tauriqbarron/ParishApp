@@ -19,8 +19,6 @@ const styles = StyleSheet.create({
     borderRadius: 3px,
     position: absolute;
     width: 340px;
-    height: 194px;
-    left: calc(50% - 340px/2);
-    top: 72px;
+    
   }
 })
