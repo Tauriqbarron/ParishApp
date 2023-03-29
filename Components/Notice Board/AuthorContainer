@@ -11,8 +11,8 @@ const AuthorContainer = () => {
 
 const styles = StyleSheet.create({
   nameBox:{
-    padding: 4px,
-    margin: 5px,
+    width: 100px,
+    height: 23px,
 
   }
 })
