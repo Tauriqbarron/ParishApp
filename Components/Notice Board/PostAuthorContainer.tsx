@@ -1,4 +1,5 @@
 import React from 'react';
+import { CustomText } from '../Commmon/CustomText';
 
 // Will import a custom text component 
 // the component will be able to be passed the font settings (to be built)
@@ -10,7 +11,7 @@ import {View, StyleSheet, Text} from 'react-native';
 const PostAuthorContainer = () => {
   return( 
   <View style={styles.nameBox}>
-    <PostsAuthorName></PostsAuthorName>
+    <CustomText  ></CustomText>
   </View>
     )
 }
