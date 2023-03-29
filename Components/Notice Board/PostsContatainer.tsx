@@ -1,4 +1,4 @@
-mport React from 'react';
+import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 
 const PostsContainer = () => {
@@ -21,3 +21,5 @@ const styles = StyleSheet.create({
     height: 194px,
   }
 })
+
+export default PostsContainer;
