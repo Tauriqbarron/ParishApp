@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from 'react';
 import {ScrollView} from 'react-native';
 
 const[Post,setPost] = useState([
