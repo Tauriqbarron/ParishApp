@@ -1,23 +1,26 @@
-mport React from 'react';
+import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
+import PostContentContainer from './PostContentContainer';
 
 const PostsContainer = () => {
-  return( 
-  <View style={styles.msgBox}>
-    <PostContentContainer></PostContentContainer>
-  </View>
-    )
-}
+  return (
+    <View style={styles.msgBox}>
+      <Text>Posts Container</Text>
+      <PostContentContainer />
+    </View>
+  );
+};
+export default PostsContainer;
 
 const styles = StyleSheet.create({
-  msgBox:{
+  msgBox: {
     backgroundColor: '#EAE7DB',
-    borderWidth: 2px,
+    borderWidth: 2,
     borderColor: '#000',
-    padding: 4px,
-    margin: 5px,
-    borderRadius: 3px,
-    width: 340px,
-    height: 194px,
-  }
-})
+    padding: 4,
+    margin: 5,
+    borderRadius: 3,
+    width: 340,
+    height: 194,
+  },
+});

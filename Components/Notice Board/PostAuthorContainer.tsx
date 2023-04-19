@@ -18,8 +18,7 @@ const PostAuthorContainer = () => {
 
 const styles = StyleSheet.create({
   nameBox:{
-    width: 100px,
-    height: 23px,
-
+    width: 100,
+    height: 23,
   }
 })

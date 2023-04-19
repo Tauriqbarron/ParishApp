@@ -6,25 +6,12 @@
  */
 
 import React from 'react';
-import {Text} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
+import {Text, View} from 'react-native';
+import BoardContainer from './Components/Notice Board/BoardContainer';
 
 function App(): JSX.Element {
-
-
-  return (
-    <Text> Test</Text>
-  );
+  return <BoardContainer />;
 }
 
-
-
 export default App;
+ 
